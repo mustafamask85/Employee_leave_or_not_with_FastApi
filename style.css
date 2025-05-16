@@ -1,0 +1,89 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  display: grid;
+  gap: 10px;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+}
+
+input:focus {
+  border-color: #4e54c8;
+  outline: none;
+  box-shadow: 0 0 5px rgba(78, 84, 200, 0.3);
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  background: #4e54c8;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3d40b0;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.result span {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.result .yes {
+  background-color: #ffdddd;
+  color: #c0392b;
+}
+
+.result .no {
+  background-color: #ddffdd;
+  color: #27ae60;
+}

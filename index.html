@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Leave Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Employee Leave Predictor</h1>
+    <p class="subtitle">Enter employee details to predict if they will leave</p>
+    <form id="predictionForm">
+      <div class="form-group">
+        <input type="text" name="Education" placeholder="Education" required />
+        <input type="number" name="JoiningYear" placeholder="Joining Year" required />
+        <input type="text" name="City" placeholder="City" required />
+        <input type="number" name="PaymentTier" placeholder="Payment Tier" required />
+        <input type="number" name="Age" placeholder="Age" required />
+        <input type="text" name="Gender" placeholder="Gender" required />
+        <input type="text" name="EverBenched" placeholder="Ever Benched" required />
+        <input type="number" name="ExperienceInCurrentDomain" placeholder="Experience In Current Domain" required />
+      </div>
+      <button type="submit">Predict</button>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
